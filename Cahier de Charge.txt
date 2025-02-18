@@ -1,0 +1,33 @@
+Roadmap : 
+
+- Créer un compteur qui permet de changer l'affichage du site lorsqu'on clique sur les flèches.
+- Définir les variables titre, flèches, liens Wikipédia, la description des personnes.
+- Utiliser un liste de dictionnaire, avec comme clés : src (source de l'image), titre (nom du mec), description (description du mec ), wiki (lien de son wiki) 
+- Lorsqu'on clique sur la flèche gauche, si le compteur est supérieur à 0, on lui retire 1. Sinon, on le remet à la dernière position de la liste (longueur du tableau - 1).
+- Lorsqu'on clique sur la flèche droite, si le compteur est inférieur à la longueur de la liste - 1, on lui ajoute 1. Sinon, on le remet à 0 pour revenir au début de la liste.
+- Optimiser le code au maximum afin d'éviter les if, else if.
+- Avoir une page moderne avec un CSS pas très avancer
+-> Retirer la barre horizontale qui permet la navigation
+
+Voici les différentes Documentation utiliser afin de réaliser mon mini-projet.
+
+Documentation CSS : 
+https://developer.mozilla.org/fr/docs/Web/CSS
+
+Documentation JavaScript :
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators
+
+Documentation HTML :
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/img
+https://developer.mozilla.org/fr/docs/Web/API/Element/innerHTML
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/href
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+Importation police personnalisée :
+https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+
+Image des flèches : 
+https://fonts.google.com/icons?query=Arrow&selected=Material+Symbols+Outlined:arrow_back:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%23e8eaed
+https://fonts.google.com/icons?query=Arrow&selected=Material+Symbols+Outlined:arrow_forward:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%23e8eaed
+
+Par Saner Dogrul
