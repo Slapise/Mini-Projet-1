@@ -4,8 +4,11 @@ const flecheDroite = document.getElementsByClassName("arrow")[1];
 const titre = document.querySelector(".title");
 const description = document.querySelector(".description");
 const wiki = document.querySelector(".wiki");
+const cssButton = document.querySelector(".style");
+const cssLink = document.querySelector("link.css");
 
 let compteur = 0;
+let compteurStyle = 0;
 
 const images = [
     {
@@ -63,6 +66,16 @@ flecheDroite.addEventListener("click", () => {
         compteur = 0
     }
     maj();
+});
+
+cssButton.addEventListener("click", () => {
+    compteurStyle++;
+
+    if (compteurStyle % 2 === 0) {
+        cssLink.href = "assets/css/style.css";
+    } else {
+        cssLink.href = "assets/css/style_changed.css";
+    }
 });
 
 maj()

@@ -9,8 +9,8 @@ html, body {
   display: flex;
   flex-direction: column;
   font-family: "CascadiaMono", monospace;
-  background-color: #0c162d;
-  color: aliceblue;
+  background-color: #f5f5dc;
+  color: #3e3b32;
 }
 
 .container {
@@ -23,10 +23,10 @@ html, body {
 .category {
   width: 80%;
   height: 70%;
-  background-color: #1a2a4e;
+  background-color: #F8F3D9;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -61,7 +61,7 @@ html, body {
   width: 100%;
   cursor: pointer;
   border-radius: 5%;
-  transition: transform 0.3s ease
+  transition: transform 0.3s ease;
 }
 
 .image:hover {
@@ -73,6 +73,7 @@ html, body {
 .description {
   margin: 20px 0;
   text-align: center;
+  color: #3e3b32;
 }
 
 /* Changement de style CSS */
@@ -85,13 +86,13 @@ button {
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  background-color: #1a2a4e;
-  color: aliceblue;
+  background-color: #f5deb3;
+  color: #3e3b32;
 }
 
 button:hover {
-background-color: #f5f5dc;
-color: #3e3b32;
+  background-color: #0c162d;
+  color: aliceblue;
 }
 
 /* Footer */
@@ -99,14 +100,15 @@ color: #3e3b32;
 footer {
   text-align: center;
   padding: 20px;
-  color: aliceblue;
+  color: #3e3b32;
 }
 
 footer a {
-  color: aliceblue;
+  color: #f5deb3;
   text-decoration: none;
 }
 
 footer a:hover {
   text-decoration: underline;
+  color: #a79d85;
 }

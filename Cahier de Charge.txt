@@ -6,8 +6,9 @@ Roadmap :
 - Lorsqu'on clique sur la flèche gauche, si le compteur est supérieur à 0, on lui retire 1. Sinon, on le remet à la dernière position de la liste (longueur du tableau - 1).
 - Lorsqu'on clique sur la flèche droite, si le compteur est inférieur à la longueur de la liste - 1, on lui ajoute 1. Sinon, on le remet à 0 pour revenir au début de la liste.
 - Optimiser le code au maximum afin d'éviter les if, else if.
-- Avoir une page moderne avec un CSS pas très avancer
+- Avoir une page moderne avec un CSS pas très avancer.
 -> Retirer la barre horizontale qui permet la navigation
+- Ajouter un bouton permettant de changer de style CSS.
 
 Voici les différentes Documentation utiliser afin de réaliser mon mini-projet.
 
@@ -16,6 +17,10 @@ https://developer.mozilla.org/fr/docs/Web/CSS
 
 Documentation JavaScript :
 https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators
+https://developer.mozilla.org/fr/docs/Glossary/Attribute
+https://developer.mozilla.org/fr/docs/Web/API/Element/getAttribute
+https://developer.mozilla.org/fr/docs/Web/API/Element/setAttribute
+
 
 Documentation HTML :
 https://developer.mozilla.org/fr/docs/Web/HTML/Element/img
