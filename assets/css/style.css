@@ -61,7 +61,7 @@ html, body {
   width: 100%;
   cursor: pointer;
   border-radius: 5%;
-  transition: transform 0.3s ease
+  transition: transform 0.3s ease;
 }
 
 .image:hover {

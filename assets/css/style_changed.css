@@ -23,7 +23,7 @@ html, body {
 .category {
   width: 80%;
   height: 70%;
-  background-color: #F8F3D9;
+  background-color: #eee6be;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -63,6 +63,7 @@ html, body {
   border-radius: 5%;
   transition: transform 0.3s ease;
 }
+
 
 .image:hover {
   transform: scale(1.05);
@@ -104,7 +105,7 @@ footer {
 }
 
 footer a {
-  color: #f5deb3;
+  color: #d1b174;
   text-decoration: none;
 }
 

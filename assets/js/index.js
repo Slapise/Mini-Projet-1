@@ -5,7 +5,7 @@ const titre = document.querySelector(".title");
 const description = document.querySelector(".description");
 const wiki = document.querySelector(".wiki");
 const cssButton = document.querySelector(".style");
-const cssLink = document.querySelector("link.css");
+const cssLink = document.querySelector("link");
 
 let compteur = 0;
 let compteurStyle = 0;
@@ -73,8 +73,13 @@ cssButton.addEventListener("click", () => {
 
     if (compteurStyle % 2 === 0) {
         cssLink.href = "assets/css/style.css";
+        flecheGauche.src = "assets/html/Arrow-Back.png";
+        flecheDroite.src = "assets/html/ArrowForward.png";
+
     } else {
         cssLink.href = "assets/css/style_changed.css";
+        flecheGauche.src = "assets/html/Arrow-Back-Black.png";
+        flecheDroite.src = "assets/html/Arrow-Forward-Black.png";
     }
 });
 
